@@ -1,3 +1,8 @@
+# Img.ly fork notes
+
+Just updated the node version used to execute the action.
+M1 macs aren't compatible with Node 12, so it's changed to Node 16
+
 # retry
 
 Retries an Action step on failure or timeout. This is currently intended to replace the `run` step for moody commands.
